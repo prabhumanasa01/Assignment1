@@ -46,16 +46,21 @@
             </tr>
         </footer>
     </table>
-
+<form action="#">
     <h2>Book Now</h2>
-    <label for="">Name:</label>
-    <input type="text" required>
-    <label for="">Email:</label>
-    <input type="email" required>
-    <label for="">Phone:</label>
-   <input type="tel" required>
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="you'r name" minlength="5" maxlength="15"  required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="email id" required>
+    <label for="Phone">Phone:</label>
+   <input type="tel" id="Phone" placeholder="phone number" pattern="[0-9]{10}"
+    title="please enter valid phone number"  required>
    <input type="submit">
-
+   </form>
+  <br>
+  
+<footer>
    <p>Contact us at: <a href="#">info@Laundrymart.com</a></p>
+   </footer>
 </body>
 </html>
